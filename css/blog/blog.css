@@ -4,8 +4,8 @@
 @import "./social.css";
 
 .container{
+    background-color: cadetblue;
     font-family: 'Bangers', cursive;
-    font-size: 5vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:minmax(200px, auto);

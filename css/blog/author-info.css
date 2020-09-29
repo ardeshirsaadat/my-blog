@@ -16,31 +16,38 @@
 .name{
   padding: 10px;
   grid-area: name;
+  font-size: 30px;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
 }
 
 .title{
   padding: 10px;
   grid-area: title;
+  font-size: 30px;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
 }
 
 .company{
   padding: 10px;
   grid-area: company;
+  font-size: 30px;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
 }
 
 .bio{
   padding: 10px;
   grid-area: bio;
+  font-size: 30px;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
 }
 
 .avatar{
   padding: 10px;
   grid-area: avt;
-  /* background-image: url("../img/img_avatar.png"); */
-  /* background-size: contain; */
-  /* background-repeat: no-repeat; */
-  /* border-radius: 50%; */
-  
 }
 
 .avatar-img {

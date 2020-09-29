@@ -1,0 +1,9 @@
+.footer{
+    grid-area: bottom;
+    /* border: 1px solid red; */
+    
+}
+
+.footer p{
+    background-color: #e5e5e5;
+}

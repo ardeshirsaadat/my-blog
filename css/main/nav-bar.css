@@ -1,18 +1,15 @@
-.nav-bar{
+.nav-bar {
     grid-area: middle-left;
-    /* border: 1px solid red; */
 }
 
-.list-flex{
+.list-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* border:2px solid black; */
     margin: 2px;
     background-color: #e5e5e5;
-    
 }
 
-.list-flex li{
+.list-flex li {
     list-style-type: none;
 }

@@ -1,9 +1,8 @@
-.footer{
+.footer {
     grid-area: bottom;
     margin: 2px;
-    
 }
 
-.footer p{
+.footer p {
     background-color: #e5e5e5;
 }

@@ -3,45 +3,43 @@
 @import "./article-preview.css";
 @import "./footer.css";
 
-.container{
+.container {
     background-color: cadetblue;
-    font-family: 'Bangers', cursive;
+    font-family: "Bangers", cursive;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:minmax(200px, auto);
-    grid-template-areas: 
+    grid-template-rows: minmax(200px, auto);
+    grid-template-areas:
         "top top"
         "middle-left middle-left"
         "middle-right middle-right"
         "figcap figcap"
         "bottom bottom";
 }
-.figcap{
+.figcap {
     grid-area: figcap;
     margin: 2px;
 }
 
-.figcap-img{
+.figcap-img {
     width: 100%;
-    
 }
 
-@media (min-width:750px){
-    .container{
+@media (min-width: 750px) {
+    .container {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        grid-template-rows:minmax(200px, auto);
-        grid-template-areas: 
+        grid-template-rows: minmax(200px, auto);
+        grid-template-areas:
             "top top"
             "middle-left middle-right"
             "middle-left middle-right"
             "figcap figcap"
             "bottom bottom";
     }
-    .list-flex{
+    .list-flex {
         height: 100%;
         flex-direction: column;
         margin: 10px;
-
-    }    
+    }
 }

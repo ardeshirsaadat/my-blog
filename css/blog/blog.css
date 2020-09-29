@@ -3,25 +3,25 @@
 @import "./header.css";
 @import "./social.css";
 
-.container{
+.container {
     background-color: cadetblue;
-    font-family: 'Bangers', cursive;
+    font-family: "Bangers", cursive;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:minmax(200px, auto);
-    grid-template-areas: 
+    grid-template-rows: minmax(200px, auto);
+    grid-template-areas:
         "top top"
         "middle-top middle-top"
         "middle-bottom middle-bottom"
         "bottom bottom";
 }
 
-@media (min-width: 700px){
-    .container{
+@media (min-width: 700px) {
+    .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows:minmax(200px, auto);
-        grid-template-areas: 
+        grid-template-rows: minmax(200px, auto);
+        grid-template-areas:
             "top top"
             "middle-top middle-bottom"
             "middle-top middle-bottom"

@@ -1,6 +1,6 @@
 .footer{
     grid-area: bottom;
-    /* border: 1px solid red; */
+    margin: 2px;
     
 }
 

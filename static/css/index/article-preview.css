@@ -1,0 +1,44 @@
+.article-preview {
+    grid-area: middle-right;
+    /* border: 1px solid red; */
+    display: grid;
+    background: #ddd;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "img blg"
+        "img btn";
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.element1 {
+    grid-area: blg;
+}
+
+.element2 {
+    border-radius: 10px;
+    grid-area: img;
+    /* border: 2px solid black; */
+    background-image: url("../../img/placeimg_500_400_tech.jpg");
+    background-size: 100%;
+}
+
+.element3 {
+    grid-area: btn;
+}
+
+.header-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+}

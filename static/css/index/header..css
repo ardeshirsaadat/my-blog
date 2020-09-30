@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    grid-area: top;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background: #dddd;
+}

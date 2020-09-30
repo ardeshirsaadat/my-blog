@@ -1,0 +1,14 @@
+.nav-bar {
+    grid-area: middle-left;
+}
+
+.list-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #ddd;
+}
+
+.list-flex li {
+    list-style-type: none;
+}
